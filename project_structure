@@ -1,0 +1,19 @@
+app/
+├── __init__.py
+├── bot.py                 # 机器人主程序入口
+├── config/
+│   ├── __init__.py
+│   ├── config.py         # 配置类定义
+│   └── config.yaml       # 配置文件
+├── models/
+│   ├── __init__.py
+│   ├── prompt_templates.py    # 提示词模板
+│   └── chat_manager.py       # 聊天管理器
+├── handlers/
+│   ├── __init__.py
+│   └── message_handler.py    # 消息处理器
+├── utils/
+│   ├── __init__.py
+│   ├── logger.py            # 日志工具
+│   └── exceptions.py        # 自定义异常
+└── requirements.txt         # 项目依赖 
