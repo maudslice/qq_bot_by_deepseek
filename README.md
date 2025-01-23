@@ -14,7 +14,7 @@
 
 1. 克隆项目
 ```bash
-git clone [repository_url]
+git clone https://github.com/maudslice/qq_bot_by_deepseek.git
 cd qq_bot_by_deepseek
 ```
 
@@ -42,7 +42,23 @@ python app/bot.py
 ### 管理员指令
 以下指令仅限管理员使用：
 
-1. 查看角色列表 
+1. 查看角色列表
+```
+/role
+切换
+切换角色
+```
+
+2. 切换角色
+```
+/role programmer  # 切换到程序员角色
+切换 teacher      # 切换到教师角色
+切换角色 default  # 切换到默认角色
+```
+
+3. 重载配置
+```
+/reload  # 重新加载配置文件
 ```
 
 ### 普通对话
